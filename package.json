@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "java -jar node_modules/google-closure-compiler/compiler.jar --module_resolution NODE --entry_point index.js --js_output_file dist/test.js --js index.js -W VERBOSE"
+    "build": "java -jar node_modules/google-closure-compiler/compiler.jar --module_resolution NODE --entry_point index.js --js_output_file dist/test.js --js index.js --process_common_js_modules"
   },
   "author": "",
   "license": "ISC",
